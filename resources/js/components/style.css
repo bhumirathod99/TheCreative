@@ -1,0 +1,22 @@
+/* ****************   Start Navbar   ************** */
+
+.main_navbar{
+    //background:#000d47;
+    background:  #084d7e ;
+}
+.main_navbar .navbar-brand{
+    color:white;
+    font-size:35px;
+}
+.nav-item .nav-link{
+    color:white!important;
+    
+}
+.login_style{
+    box-shadow: 0px 0px 10px 0px #888888;
+}
+.login_style .btn{
+    background:  #084d7e ;
+    color:white;
+    
+}
