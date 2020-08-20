@@ -17,4 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('users', 'UserController');
+Route::resource('/signup', 'SignupController');
+Route::post('/login','LoginController@formSubmit');
+//Route::resource('/login', 'LoginController');

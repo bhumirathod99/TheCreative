@@ -1,8 +1,6 @@
 import React from "react";
-import {BrowserRouter as Router, Switch, Route, NavLink, Redirect } from "react-router-dom";
-
+import { Switch ,Route, Redirect } from 'react-router-dom';
 import Navbar from './Navbar';
-
 import Home from './Home';
 import HomeSkill from './HomeSkill';
 import Services from './Services';
@@ -11,7 +9,6 @@ import Signup from './Signup';
 
 export default function App() {
   return (
-    <Router>
       <div>
         
         <Navbar/>
@@ -34,7 +31,6 @@ export default function App() {
           <Redirect to="/"/>
         </Switch>
       </div>
-    </Router>
    
   );
 }
